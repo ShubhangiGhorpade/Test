@@ -1,0 +1,85 @@
+1.public static void main(String agrs[])
+    public is a AccessSpecifier which can be accessed within and outside the package.
+	static is a non access specifier which has a single copy storage and bounded to compile time.
+	void is a return type which does not return anything 
+	main is a method which is the entry point for execution
+	String arg[] is a command line where during compliation it can read data form compandprompt.
+	
+2.class:It is a blueprint or template through which object can be created.
+  object:It is a real world entity which has states and behaviours.
+
+3.JVM:Java Virtual Machine 
+      physically doesnot exists
+      which is mainly used to load,verify and execute
+      which provides the runtime environment.
+
+  JRE:Java Runtime Environment
+      which is physically exists
+      provides the runtime
+      it has set of library+jvm
+
+  JDK:Java Development Kit
+      which is physically exists
+      It is mainly used for development
+      it has development tools+Jre
+
+2.INPUT:1234
+  OUTPUT:4321	  
+  
+  public static void main(String[] args){
+  int num=1234;
+  int rev=0;
+  for(int i=0;i<num;i++){
+  num=num%10;
+  rev=rev*10+num;
+  num=num/10; 
+  }
+ }
+ 
+3.Input:program
+  OUTPUT:margorp
+  
+  String str="program";
+  String rev="";
+  for(int i<str.length()-1,i>0,i--){
+  char ch[]=str.toCharAt(i);
+  rev=rev+ch[i];
+  }
+  
+4.Constructor:It is a special whose name is same as the class name.
+              It doesnot have any return type
+              It provides a default constructor which is provided by the compiler
+          Types:1.Default constructor:which is provided by the compiler.
+                2.Parameterized constructor:which is user defined with some arguments .
+
+5.this keyword:it is used in current instances
+               it is used to differeniate between instance and local variable.
+  this method:it is used for constructor chaining.
+               chaining in the same class .
+
+6.Main method is static between we dont need to create the object of class before the class loads the static members are executed.and it is bounded to compile time.
+           Types of Method are:
+		   static Method:Those which uses static has a keyword.
+		                 We dont need to create the instance to access.
+
+		   Non-static method:Those which dont uses static has a keyword.
+		                 We need to create the instance to access.
+			   
+7.int num=100;
+for(int i=1;i<num;i++){
+if(num/5 && num/10){
+sop(num);
+}
+}
+
+8.Java class loader is where it loads all the class,members in the memory area.
+
+9.We cannot have private constructor bcoz constructor are used for chaining and intializing instance variable.
+  yes,we can over load constructor by calling one constructor into another constructor.
+ EX:method in object class that is wait.
+
+10.int arr[]={12,3,2,45,6,7,6}
+sop(arr.length);
+
+11.No,bcoz static is bounded to compile time.
+ 
